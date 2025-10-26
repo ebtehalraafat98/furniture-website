@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .cart {
     max-width: 800px;
     margin: 2rem auto;
@@ -81,4 +82,89 @@
 
 .clearBtn:hover {
     background-color: #ffbf00;
+=======
+.cart {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.cart h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 6px;
+    background-color: #fafafa;
+
+}
+
+.item h5 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.item p {
+    margin: 0.3rem 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.item button {
+    margin-top: 0.5rem;
+
+    width: 200px;
+    padding: 0.4rem 0.8rem;
+    background-color: #0dcaf0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.item button:hover {
+    background-color: #00d5ff;
+}
+
+.total {
+    margin-top: 2rem;
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #111;
+}
+
+.clearBtn {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    background-color: #eeb509;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.clearBtn:hover {
+    background-color: #ffbf00;
+>>>>>>> 03ef7f6b9498c4d0970794466ee4e0fa271ce33f
 }
