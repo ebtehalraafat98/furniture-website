@@ -1,5 +1,6 @@
 import styles from './Cards.module.css';
 import { Link } from 'react-router-dom';
+import { API_URL } from '../../config';
 import AddToCartButton from '../AddToCartButton/AddToCartButton';
 
 function FurnitureCard({ id, title, desc, image, price, category, stock }) {

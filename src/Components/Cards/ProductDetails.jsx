@@ -1,26 +1,28 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { API_URL } from '../../config';
 import AddToCartButton from "../AddToCartButton/AddToCartButton";
 import styles from "./ProductDetails.module.css";
 
 function ProductDetails() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchProduct() {
-      try {
-        const res = await fetch(`http://localhost:5000/products/${id}`); 
-        const data = await res.json();
+    fetch(`${API_URL}/products/${id}`)
+      .then((res) => res.json())
+      .then((data) => {
         setProduct(data);
-      } catch (err) {
-        console.error("Error fetching product:", err);
-      }
-    }
-    fetchProduct();
+        setLoading(false);
+      })
+      .catch((error) => {
+        console.error("Error fetching product:", error);
+        setLoading(false);
+      });
   }, [id]);
 
-  if (!product) return <p>Loading...</p>;
+  if (!product || loading) return <p>Loading...</p>;
 
   return (
     <div className={styles.details}>

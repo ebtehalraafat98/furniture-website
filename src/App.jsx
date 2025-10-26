@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // ✅ المكونات الرئيسية
 import NavBar from './Components/NavBar/NavBar.jsx';
@@ -14,7 +14,7 @@ import Cart from './Pages/Cart/Cart'; // ✅ صفحة العربة
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router basename="/furniture-website">
       <NavBar />
 
       <Routes>
@@ -28,7 +28,7 @@ function App() {
       </Routes>
 
       <Footer />
-    </BrowserRouter>
+    </Router>
   );
 }
 

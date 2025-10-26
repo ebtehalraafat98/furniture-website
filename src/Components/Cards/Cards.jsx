@@ -1,5 +1,6 @@
 import FurnitureCard from './FurnitureCard';
 import './Cards.css';
+import { API_URL } from '../../config';
 import { useEffect, useState } from 'react';
 
 
