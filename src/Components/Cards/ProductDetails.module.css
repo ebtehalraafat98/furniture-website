@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .details {
   display: flex;
   justify-content: center;
@@ -45,52 +45,5 @@
 
 .actions {
   margin-top: 1rem;
-=======
-.details {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-.card {
-  max-width: 500px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  text-align: center;
-}
-
-.title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
-.image {
-  max-width: 250px;
-  height: auto;
-  margin: 1rem auto;
-  display: block;
-  object-fit: contain;
-}
-
-.desc {
-  color: #555;
-  font-size: 0.95rem;
-  margin: 1rem 0;
-}
-
-.price {
-  font-size: 1.3rem;
-  font-weight: bold;
-  color: #ff8800;
-  margin-bottom: 1rem;
-}
-
-.actions {
-  margin-top: 1rem;
->>>>>>> 03ef7f6b9498c4d0970794466ee4e0fa271ce33f
+ 
 }

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .customCardImg {
   width: 100%;
   height: 250px;
@@ -57,64 +57,4 @@
 
 .btn:hover {
   background-color: #d6ac38;
-=======
-.customCardImg {
-  width: 100%;
-  height: 250px;
-  object-fit: contain;
-  transition: transform 0.3s ease;
-  margin: 1rem
-}
-
-.customCardImg:hover {
-  transform: scale(1.05);
-}
-
-.card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  border: none;
-  border-radius: 10px;
-  background-color: #eff3f1;
-  transition: box-shadow 0.3s ease;
-}
-
-.card-body {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.card-text {
-  min-height: 60px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-.price {
-  font-size: 1.2rem;
-  color: #333;
-  margin-bottom: 1rem;
-}
-
-.btn {
-  background-color: #28a745;
-  color: white;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-.btn:hover {
-  background-color: #d6ac38;
->>>>>>> 03ef7f6b9498c4d0970794466ee4e0fa271ce33f
 }
